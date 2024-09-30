@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
+
+body {
+    background-color: #DAD4B5;
+    text-align: center;
+}
+
+.mainmenu, .menulink{
+    list-style-type: none;
+}
+
+.recipetitle, .submenu{
+    color: #800000;
+}
+
+.recipetitle{
+    font-family: "Amita", Garamond, serif;
+    font-size: 3rem;
+}
+
+.submenu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+}
+
+.submenu.secondary{
+    font-size: 1.5rem;
+}
+
+.ingredli, .stepsli{
+    text-align: left;
+}
+
+.ingredli{
+    list-style-type: "→";
+}
+
+.stepsli{
+    list-style-type: decimal;
+}
+
+a {
+    text-decoration: none;
+    color: #982B1C;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ad6055;
+}
